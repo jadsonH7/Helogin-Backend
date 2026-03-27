@@ -10,7 +10,7 @@ const port = process.env.PORT || 5001;
 
 app.use(express.json());
 app.use(cors({
-    origin: "https://helogin.vercel.app/"
+    origin: "https://helogin.vercel.app/api/"
 }));
 
 app.use('/api', router);
