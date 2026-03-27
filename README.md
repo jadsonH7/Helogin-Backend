@@ -1,56 +1,20 @@
-# 📌 Sistema de Autenticação Fullstack (Login & Cadastro)
+# Helogin
+Criei esse projeto para treinar o React e o Vite com Tailwind CSS.
 
-Aplicação fullstack completa para autenticação de usuários, com registro, login, proteção de rotas e interface responsiva. Projeto desenvolvido com foco em arquitetura simples.
+## Arquitetura do Projeto
+Projeto é uma aplicação web que tem como objetivo realizar o login de usuários.
 
----
+## Skills
+```
+Frontend: React, Vite, Tailwind CSS
 
-## 🚀 Tecnologias utilizadas
+Backend: Node.js, Express, Cors, Bcrypt
 
-### 🔹 Frontend
-- React (Vite)
-- Tailwind CSS (v4)
-- Axios
-- React Router DOM
-
-### 🔹 Backend
-- Node.js
-- Express
-- JSON Web Token (JWT)
-- Bcrypt
-
----
-
-## ⚙️ Funcionalidades
-
-- ✅ Cadastro de usuários  
-- ✅ Login com autenticação segura (JWT)  
-- ✅ Proteção de rotas privadas  
-- ✅ Logout  
-- ✅ Interface responsiva (mobile + desktop)  
-- ✅ Sidebar dinâmica (menu mobile + desktop)
-
----
-
-## 🔐 Autenticação
-
-- Senhas criptografadas com bcrypt  
-- Tokens JWT com expiração  
-- Middleware para validação de rotas protegidas  
-
----
-
-## 🧱 Estrutura do Projeto
-
-
-📦 projeto
-┣ 📂 backend
-┃ ┣ 📂 controllers
-┃ ┣ 📂 middleware
-┃ ┣ 📂 routes
-┃ ┗ server.js
-┣ 📂 frontend
-┃ ┣ 📂 components
-┃ ┣ 📂 pages
-┃ ┣ 📂 services
-┃ ┗ main.jsx
-┗ README.md
+Deploy: Git, GitHub,
+Frontend: Vercel,
+Backend: Render
+```
+## Como clonar
+```
+git clone https://github.com/jadsonH7/Helogin.git
+``` 
